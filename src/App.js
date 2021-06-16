@@ -1,12 +1,13 @@
 import logo from './logo.svg';
+import under from './assets/images/undraw_under_construction_46pa.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <img src={under} className="App-logo" alt="logo" />
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,7 +17,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <h3>This Site is Under Construction</h3>
+        <span>Copyright © Pemuda Peduli. All rights reserved 2021</span>
       </header>
     </div>
   );
